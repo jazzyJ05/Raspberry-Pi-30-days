@@ -1,8 +1,8 @@
-“ “ “Find the slope of (430,0) and (65536, 33) in order to convert the bits to volts
+"""Find the slope of (430,0) and (65536, 33) in order to convert the bits to volts
 The slope is (3.3/65106)
 To find the y intercept we substitute the point (430,0) and slope into y - y1 = m(x - x1)
 y = (3.3/65106)(x) - (430 * 3.3 / 65106) 
-Voltage = (3.3/65106)(potVal) - (430 * 3.3 / 65106) “ “ “
+Voltage = (3.3/65106)(potVal) - (430 * 3.3 / 65106)""" 
 #Read a potentiometer in volts
 
 import machine
